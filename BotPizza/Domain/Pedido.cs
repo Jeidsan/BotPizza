@@ -13,7 +13,7 @@ namespace BotPizza.Domain
         public TipoEntrega TipoEntrega { get; set; }
         public Endereco EnderecoEntrega { get; set; }
         public FormaPagamento FormaPagamento { get; set; }
-        public List<Item> Itens { get; set; }
+        public List<Pizza> Pizzas { get; set; }
         #endregion
 
 

@@ -2,14 +2,15 @@
 
 namespace BotPizza.Domain
 {
-    public class Pizza : Item
+    public class Pizza
     {
         #region Construtores
-        public Pizza() : base(TipoItem.Pizza) { }
+        public Pizza() { }
         #endregion
 
         #region Propriedades
-        public List<SaborPizza> Sabores { get; set; }
+        public Tamanho Tamanho { get; set; }
+        public List<Sabor> Sabores { get; set; }
         #endregion
     }
 }

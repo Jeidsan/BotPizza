@@ -114,17 +114,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
     <Compile Include="Dialogs\RootDialog.cs" />
-    <Compile Include="Domain\Bebida.cs" />
     <Compile Include="Domain\Cliente.cs" />
     <Compile Include="Domain\Endereco.cs" />
     <Compile Include="Domain\FormaPagamento.cs" />
-    <Compile Include="Domain\Item.cs" />
     <Compile Include="Domain\Pedido.cs" />
     <Compile Include="Domain\Pizza.cs" />
-    <Compile Include="Domain\SaborPizza.cs" />
-    <Compile Include="Domain\TipoEndereco.cs" />
+    <Compile Include="Domain\Sabor.cs" />
+    <Compile Include="Domain\Tamanho.cs" />
     <Compile Include="Domain\TipoEntrega.cs" />
-    <Compile Include="Domain\TipoItem.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
